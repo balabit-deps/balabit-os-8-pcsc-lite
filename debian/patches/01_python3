@@ -1,0 +1,12 @@
+Description: Use python3 instead of deprecated/removed python2
+Author: Ludovic Rousseau <rousseau@debian.org>
+Bug-Debian: https://bugs.debian.org/945721
+
+--- a/src/spy/pcsc-spy
++++ b/src/spy/pcsc-spy
+@@ -1,4 +1,4 @@
+-#! /usr/bin/python
++#! /usr/bin/python3
+ 
+ """
+ #    Display PC/SC functions arguments
